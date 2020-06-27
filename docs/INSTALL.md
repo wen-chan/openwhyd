@@ -12,6 +12,14 @@ All you need is:
 - to have [Docker](https://www.docker.com/products/docker-desktop);
 - and to have [Git](https://www.atlassian.com/git/tutorials/install-git) installed on your machine.
 
+### Docker for Windows Home
+Docker for Windows Home runs on a virtual box, so localhost may not work. For all the configuration and command below, if localhost is not working, replace it with your docker ip that you can find with :
+```sh
+$ docker-machine ip                  
+```
+- in your web browser, http://localhost:8080 become http://your-docker-ip:8080
+- replace these values on the different scripts
+
 ### Clone and run
 
 Commands to type in your shell:
